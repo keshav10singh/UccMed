@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+        <suite name= "UccMedSuit1">
+       
+      <!-- These tags are commented <listeners>
+       
+       <listener class-name="com.UccMed.Utilities.Reporting" />   
+       
+       </listeners> 
+       
+       <listeners>
+		<listener class-name="com.qa.hubspot.listeners.ExtentReportListener" />
+		<listener class-name="com.qa.hubspot.listeners.TestAllureListener" /> 
+
+	</listeners> --> 
+
+<test name="UccMed Test1">
+     <parameter name="browser" value="chrome" />
+  
+      <classes>
+             <class name="com.UccMed.testCases.TC_001_LoginTest" /> 
+                   <!--  <class name="com.UccMed.testCases.TC_002_LoginDDTest" /> --> 
+      </classes>
+</test>
+
+
+       </suite>

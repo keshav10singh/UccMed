@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [UccMedSuit1]">
+  <test thread-count="5" name="UccMed Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.UccMed.testCases.TC_002_LoginDDTest">
+        <methods>
+          <include name="loginDDT"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.UccMed.testCases.TC_002_LoginDDTest -->
+    </classes>
+  </test> <!-- UccMed Test1(failed) -->
+</suite> <!-- Failed suite [UccMedSuit1] -->
